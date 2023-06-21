@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "125434370743",
+    "project_id": "table-reservation-app-65097",
+    "storage_bucket": "table-reservation-app-65097.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125434370743:android:5a386ce9a7ed33d20d0b32",
+        "android_client_info": {
+          "package_name": "com.example.salesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125434370743-8f8gvmbdbk53d36dlv26lm30fqbjmntc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU61ZQiHrJbXtSmPTcncFo1LnTGcQn2fs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125434370743-8f8gvmbdbk53d36dlv26lm30fqbjmntc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
