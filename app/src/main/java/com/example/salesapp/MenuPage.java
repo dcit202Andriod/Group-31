@@ -27,7 +27,14 @@ public class MenuPage extends AppCompatActivity {
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-    
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String selectedItem = (String) parent.getItemAtPosition(position);
+                Toast.makeText(getApplicationContext(), "Table Booked Successfully: " + selectedItem, Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MenuPage.this, ConfirmationPage.class);
+                startActivity(intent);
+            }
+
             });
         }
     }
