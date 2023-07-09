@@ -18,4 +18,7 @@ public class ConfirmationPage extends AppCompatActivity {
 
 
     }
+     public void openMenuPage (View v){
+        startActivity(new Intent(this, MenuPage.class));
+    }
 }
