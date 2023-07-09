@@ -50,6 +50,19 @@
         android:layout_below="@id/confirmButton"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SignoutButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Select a different table"
+        android:onClick="openMenuPage"
+        android:textColor="@color/black" />
 
 </RelativeLayout>
 
