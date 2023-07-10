@@ -25,8 +25,15 @@ public class MenuPage extends AppCompatActivity {
         listView = findViewById(R.id.listView);
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_activated_1, selectableItems);
         listView.setAdapter(adapter);
-
-        
+         
+listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String selectedItem = (String) parent.getItemAtPosition(position);
+                Toast.makeText(getApplicationContext(), "Table Booked Successfully: " + selectedItem, Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MenuPage.this, ConfirmationPage.class);
+                startActivity(intent);
+            }
 
             });
         }
