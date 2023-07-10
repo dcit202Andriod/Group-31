@@ -8,6 +8,7 @@
     tools:context=".MenuPage">
 
     <TextView
+        
         android:id="@+id/tables"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
