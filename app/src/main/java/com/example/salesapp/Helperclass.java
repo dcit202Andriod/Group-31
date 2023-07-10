@@ -1,19 +1,5 @@
 package com.example.salesapp;
 
-public class Helperclass {
-    String fullname, email, password , phonenumber;
-
-    public String getFullname() {
-        return fullname;
-    }
-
-    public void setFullname(String fullname) {
-        this.fullname = fullname;
-    }
-
-    public String getEmail() {
-        return email;
-    }
 
     public void setEmail(String email) {
         this.email = email;
