@@ -29,3 +29,8 @@ ANANE NANA GYAMERAH
 Role: leader and wrote the java 
 codes to add functionalities to the pages
 Username: Gyamerah-266
+
+GROSS DENNIS
+{ID:10963604
+Role:Activity Menu page 
+Username:GitHub.com/dgross@st.ug.edu.gh}
