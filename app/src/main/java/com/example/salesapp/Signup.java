@@ -45,7 +45,7 @@ public class Signup extends AppCompatActivity {
                     Helperclass helperclass = new Helperclass(name,Email,Password,Number);
                     reference.child(name).setValue(helperclass);
 
-                    Toast.makeText(Signup.this, "Signup Successfully!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Signup.this, "Signup Successfull!", Toast.LENGTH_SHORT).show();
 
                 }
             }
