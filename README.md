@@ -28,9 +28,14 @@ ANANE NANA GYAMERAH
 {ID: 10952673
 Role: leader and wrote the java 
 codes to add functionalities to the pages
-Username: Gyamerah-266
+Username: Gyamerah-266}
 
 GROSS DENNIS
 {ID:10963604
 Role:Activity Menu page 
 Username:GitHub.com/dgross@st.ug.edu.gh}
+
+ROBERT CECIL CLOTTEY
+{ID: 10959224
+Role: Design Login Page
+Username: rc-cecil}
