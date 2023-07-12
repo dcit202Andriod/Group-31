@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 public class ConfirmationPage extends AppCompatActivity {
     Button SignoutButton;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
